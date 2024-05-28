@@ -1,0 +1,33 @@
+
+.Input2Box{
+    width: 200px;
+    height: 45px;
+    border:2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+} 
+
+.label2{
+    position: relative;
+    left:70px;
+    font-weight: bold;
+    color: #8B8379;
+}
+
+
+
+
+#input2{
+    width: 90%;
+    text-align: center;
+    border:none;
+    font-size: 1rem; 
+}
+
+#input2:focus{
+    outline: none;
+}
