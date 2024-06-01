@@ -1,0 +1,124 @@
+.main{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-container{
+    
+    width: 90%;
+    margin-top: 20px;
+    height: 50vh;
+    background-image: url('https://pics.craiyon.com/2023-11-30/5oalsWY8QJW0n2wMSXhAag.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-todo-container{
+    position: absolute  ;
+    width: 63%;
+    height: 46vh;
+    background-color: white;
+    top: 35%;
+    right: 18.5%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.main-todo-container::-webkit-scrollbar{
+    display: none;
+}
+
+.main-todo-container h1{
+    color: red;
+    text-align: center;
+    margin-top: 14%;
+}
+
+.navigate{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a{
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+p{
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigate p:hover{
+    transform: scale(1.1);
+
+}
+.blue p{
+    color: blue;
+   
+}
+.gray p{
+    color: gray;
+}
+
+
+.footer{
+    display: flex;
+    width: 63%;
+    justify-content: space-between;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;        
+    background-color: white;
+    margin-bottom: 2.2%;
+    border-radius: 20px;
+}
+
+
+
+button{
+    background-color: darkorchid;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+.mr-4{
+    margin-right: 4%;
+}
+
+.ml-4{
+    margin-left: 4%;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+}
+
+.clear-completed{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    transition: all 0.4s ease-in-out;
+    padding: 10px;
+}
+
+.clear-completed:hover{
+    background-color: darkorchid;
+    color: white;
+    transform: scale(1.1);
+}
