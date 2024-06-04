@@ -14,6 +14,12 @@ function TodoInput() {
       <input type="text" placeholder='Start typing...' value={newTodo} onChange={(e)=>{
         setNewTodo(e.target.value)
       }}
+      onKeyDown={(e)=>{
+        if(e.key === "Enter"){
+          if(newTodo!=""&&newTodo!=" ")
+          createTodo(newTodo)
+        }
+      }}
       
       />
       <button type="submit"className='btn' onClick={(e)=>{
